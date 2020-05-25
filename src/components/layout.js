@@ -22,7 +22,6 @@ const Layout = ({ children }) => {
             name
             link
             href
-            icon
           }
         }
       }

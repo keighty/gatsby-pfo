@@ -46,6 +46,10 @@ const Header = ({ siteTitle, menuLinks }) => (
                     rel="noreferrer"
                   >
                     {link.name}
+                    <img
+                      style={{ color: `white`, height: "16px" }}
+                      src={`/icons/new_window_white.png`}
+                    />
                   </a>
                 ) : (
                   <Link style={{ color: `white` }} to={link.link}>

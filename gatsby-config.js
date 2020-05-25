@@ -9,7 +9,6 @@ module.exports = {
       {
         name: "linkedIn",
         href: "https://www.linkedin.com/in/katieleonard/",
-        icon: "",
       },
     ],
   },

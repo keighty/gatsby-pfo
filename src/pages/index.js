@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -8,13 +7,18 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi world</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <img
+        src="https://s.gravatar.com/avatar/1b886ea5ee853d841586edd42b4a8dc0?s=80"
+        style={{ marginRight: "8px" }}
+      />
+      <h1>Hello, my name is Katie</h1>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>I write code, and I've been doing it a while.</p>
+    <p>
+      I love solving problems for users, and will work wherever people care
+      about the same thing.
+    </p>
   </Layout>
 )
 
